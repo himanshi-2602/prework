@@ -19,7 +19,7 @@ cursor = conn.cursor()
 #         print("The database is empty.")
 
 
-# Function to print all records in the database as a DataFrame
+# Function to print all records in the database as a DataFrame USING PANDAS 
 def print_database():
     cursor.execute("SELECT name, marks FROM students")
     rows = cursor.fetchall()
@@ -61,21 +61,5 @@ else:
     search_students(search_str)
 
 
-'''    
-def main(): 
-    
-    search_str = input("Enter search string: ").strip()
-    if not search_str:
-        print("Please enter a search string")
-    else:
-        search_students(search_str)
-        
-
-if __name__ == "_main_":
-    print("hello")
-    main()
-    
-
-Close the connection
-'''
+# Close the connection
 conn.close()
