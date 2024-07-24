@@ -1,12 +1,14 @@
 # Prework Assignment
 
 ## Directory Structure
+```
 prework/
 │
 ├── assignment.db # SQLite database file
 ├── part2.py # Python script file
 ├── images/ # Folder containing images
 └── README.md # README file
+```
 
 
 ## Part 1: Creating a Database and Populating Data
@@ -39,7 +41,7 @@ For this assignment, I used SQLite3 as the database.
 
 ### Database Contents
 Here is a screenshot of the database contents after insertion:
-![plot](./images/img1.png)
+![plot](./images/img1.jpeg)
 
 ## Part 2: Writing the Python Script
 
@@ -49,5 +51,5 @@ The script connects to the SQLite3 database, performs a search, and displays the
 
 ### Sample input by user
 Result of the query:
-![plot](./images/img3.png)
+![plot](./images/img3.jpeg)
 
