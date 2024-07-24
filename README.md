@@ -1,6 +1,6 @@
 # Prework Assignment
 
-## Directory Structure
+### Directory Structure
 ```
 prework/
 │
@@ -40,7 +40,7 @@ For this assignment, I used SQLite3 as the database.
    - Added a total of 8 such entries.
 
 ### Database Contents
-Here is a screenshot of the database contents after insertion:
+##### Here is a screenshot of the database contents after insertion:
 ![plot](./images/img1.jpeg)
 
 ## Part 2: Writing the Python Script
@@ -50,6 +50,6 @@ Here is a screenshot of the database contents after insertion:
 The script connects to the SQLite3 database, performs a search, and displays the results. It also prints the database contents in a tabular format using pandas.
 
 ### Sample input by user
-Result of the query:
+##### Result of the query:
 ![plot](./images/img3.jpeg)
 
